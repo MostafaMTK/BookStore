@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BookStore-Home</title>
+        <!-- For Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+        <!-- For Icons -->
+        <link rel="stylesheet" href="CSS/all.min.css">
+        <!-- For Styles  -->
+        <link rel="stylesheet" href="CSS/styles.css">
+    </head>
+
+    <body>
+        <header id="header">
+            <div class="content">
+                <div class="logo">
+                    <img src="imgs/Logo.png" alt="Books Logo">
+                    <span><span>Bo<span>o</span>k</span>Store</span>
+                </div>
+                <div class="search">
+                    <div class="searchbar">
+                        <input type="search" placeholder="Type A Keyword" />
+                    </div>
+                    <div class="searchbutton">
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="icons">
+                    <span class="shopping">
+                        <a href="purchase.html">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </a>
+                    </span>
+                    <span class="notification">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="imgs/avatar.png" alt="">
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="content">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="home.html#about">About Us</a></li>
+                    <li><a href="home.html#contacts">Contacts</a></li>
+                    <li><a href="#">Lending</a></li>
+                    <li><a href="#">E-Books</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="purchase">
+            <div class="content">
+                <div class="details">
+                    <img src="imgs/book3.jpg" alt="">
+                    <div class="description">
+                        <h3 class="avilable">Avilalbe</h3>
+                        <h2>The Punisher</h2>
+                        <h4><span>author: </span>D.A. Stern</h4>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p>
+                            <span>
+                                MAKE THE PUNISHMENT FIT THE CRIME.
+                            </span>
+                            <br>
+                            FBI agent Frank Castle’s final case ends with a literal bang, when a wannabe weapons
+                            smuggler is gunned down during a sting operation. But the dead man isn’t just any punk. He’s
+                            the son of Howard Saint, the powerful Florida tycoon whose hot-spot nightclub has made him
+                            famous, and whose multimillion-dollar money-laundering business has made him as rich—and as
+                            ruthless—as any of his gangster clients.
+                            <br>
+                            Saint wants payback—with interest—for his boy’s death. And he gets it, by orchestrating a
+                            massacre that claims the lives of Frank Castle’s beloved wife and son—and almost kills
+                            Castle. But almost doesn’t count. Now Frank Castle—ex–FBI agent, ex–Special Forces commando,
+                            ex-husband and father—is canceling his retirement and starting a new career. One that begins
+                            with teaching Howard Saint the ultimate lesson: No evil deed goes unpunished.
+                        </p>
+                        <h3 class="price">$ 100</h3>
+                    </div>
+                </div>
+                <div class="buy">
+                    <h2>Complete Payment</h2>
+                    <div class="pay">
+                        <h2>CheckOut</h2>
+                        <div class="info">
+                            <form action="home.html" target="_self">
+                                <div class="input-name">
+                                    <label for="name"><i class="fa-solid fa-signature"></i>
+                                        Enter Your Name</label>
+                                    <input type="text" id="name" required>
+                                </div>
+                                <div class="input-mail">
+                                    <label for="mail">
+                                        <i class="fa-solid fa-envelope"></i>
+                                        Enter Your E-mail</label>
+                                    <input type="email" id="mail" name="mail" required>
+                                </div>
+                                <div class="input-address">
+                                    <label for="address">
+                                        <i class="fa-solid fa-earth-americas"></i>
+                                        Enter Your Address</label>
+                                    <input type="text" name="address" id="address" required>
+                                </div>
+                                <div class="input-number">
+                                    <label for="number">
+                                        <i class="fa-solid fa-phone"></i>
+                                        Enter Your Phone Number</label>
+                                    <input type="number" name="number" id="number" required>
+                                </div>
+                                <div class="payment-method">
+                                    <i class="fa-solid fa-cash-register"></i>
+                                    Choose Your Patment-method
+                                    <input type="radio" name="method" id="cash" required checked>
+                                    <label for="cash">
+                                        <i class="fa-solid fa-money-bills"></i>
+                                        Cash
+                                    </label>
+                                    <input type="radio" name="method" id="card" required>
+                                    <label for="card">
+                                        <i class="fa-solid fa-credit-card"></i>
+                                        Credit Card
+                                    </label>
+                                </div>
+                                <div class="sub">
+                                    <input type="submit" value="Complete Payment">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div>Your Order</div>
+                        <div class="book-name">
+                            <span>Book name: </span> <span>The Punisher Novel</span>
+                        </div>
+                        <div class="price">
+                            <span>Original Price: </span><span>$ 100</span>
+                        </div>
+                        <div class="quanitity">
+                            <span>Quantity: </span><span>1</span>
+                        </div>
+                        <div class="promo-code">
+                            <span>Promo Code: </span>
+                            <span>- $ 15</span>
+                        </div>
+                        <div class="total">
+                            <span>Order Total: </span>
+                            <span>$ 85</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="copyright">
+                &copy;Copyright2025
+            </div>
+            <a href="#header" class="back">
+                <i class="fa-solid fa-angle-up"></i>
+                back to top
+            </a>
+            <a href="home.html#contacts">Contact US</a>
+            <div class="feedback">
+                Have a feedback ?
+                <a href="mailto:mostafamohammedaz222@gmai.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    Feel Free to mail us
+                </a>
+            </div>
+        </footer>
+    </body>
+
+</html>
