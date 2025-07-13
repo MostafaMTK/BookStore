@@ -818,7 +818,7 @@ footer a:hover {
     text-overflow: ellipsis;
 }
 
-.store .container .box .avialable {
+.store .container .box .available {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -826,12 +826,12 @@ footer a:hover {
     padding: 0 50px;
 }
 
-.store .container .box .avialable p {
+.store .container .box .available p {
     font-size: 15px;
     color: var(--blue-status-color);
 }
 
-.store .container .box .avialable a i {
+.store .container .box .available a i {
     background-color: #0B7C6B;
     width: 90px;
     height: 30px;
@@ -845,16 +845,16 @@ footer a:hover {
     transition: var(--main-transition-duration);
 }
 
-.store .container .box .avialable a:hover i {
+.store .container .box .available a:hover i {
     border-color: var(--dark-black);
     background-color: #0da18b;
 }
 
-.store .container .box .avialable a:hover {
+.store .container .box .available a:hover {
     animation: updown 1s infinite linear both;
 }
 
-.store .container .box .not-avialable {
+.store .container .box .not-available {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -862,12 +862,12 @@ footer a:hover {
     padding: 0 50px;
 }
 
-.store .container .box .not-avialable p {
+.store .container .box .not-available p {
     font-size: 15px;
     color: var(--red-status-color);
 }
 
-.store .container .box .not-avialable i {
+.store .container .box .not-available i {
     background-color: var(--red-status-color);
     width: 90px;
     height: 30px;
@@ -882,7 +882,7 @@ footer a:hover {
     cursor: not-allowed;
 }
 
-.store .container .box .not-avialable i:hover {
+.store .container .box .not-available i:hover {
     border-color: var(--dark-black);
     background-color: #f45f52;
 }
