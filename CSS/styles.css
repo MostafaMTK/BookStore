@@ -576,6 +576,7 @@ nav .content ul li:hover::after {
     border-radius: 10px;
     border: 2px solid var(--light-gray-2);
     transition: var(--main-transition-duration);
+    box-shadow: 0 0 5px 5px #eee;
 }
 
 .about .content .second div img {
@@ -775,6 +776,7 @@ footer a:hover {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 0 0 5px 5px #eee;
 }
 
 .store .container .box img {
@@ -782,6 +784,7 @@ footer a:hover {
     border-radius: 20px;
     border: 3px solid var(--dark-gray);
     transition: var(--main-transition-duration);
+    box-shadow: 0 0 5px 2px var(--dark-gray);
 }
 
 .store .container .box img:hover {
