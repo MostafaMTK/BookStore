@@ -220,7 +220,7 @@
         ).textContent = desc;
         document.querySelector(
           '.purchase .content .details .description h4'
-        ).textContent = author;
+        ).innerHTML = `<span>author: </span>${author}`;
         document.querySelector(
           '.purchase .content .details .description h2'
         ).textContent = bookName;
